@@ -63,6 +63,7 @@ body{
 
     }
   }
+  
 }
  .shared{
    background: $pink-gradient;
@@ -93,6 +94,7 @@ body{
        font-size: 35px;
      }
    }
+   
  }
  .unlimited{
    background: $orange-gradient;
@@ -158,6 +160,17 @@ body{
       position: absolute;
       border-radius: 5px;
     }
+  }
+}
+.continue{
+  display: flex;
+  justify-content: center;
+  button{
+    width:80%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: #6a99ca;
   }
 }
 
